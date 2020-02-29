@@ -5,13 +5,20 @@
 */
 #mainNav
  {min-height:56px;background-color:#fff}
+ 
+#mainNav .navbar-text{font-size:90%; text-decoration: none; }
 
 #mainNav .navbar-toggler
- {font-size:80%;padding:.75rem;color:#098A28;border:1px solid #098A28}
+ {font-size:90%;padding:.6rem; background-color:#0099cc; color:#FFFFFF;border:0px solid #000000}
  
  #mainNav .navbar-toggler:focus{outline:0}
  
- #mainNav .navbar-brand{color:#161616;font-weight:700;padding:.9rem 0}
+ #mainNav .navbar-brand{color:#161616;font-weight:700;padding:.7rem 0}
+ 
+ #mainNav .navbar-brand .bird { 
+  border-radius: 3px; 
+  
+}
  
  #mainNav .navbar-nav .nav-item:hover{color:fade(white,80%);outline:0;background-color:transparent}
  
@@ -21,11 +28,17 @@
  
  {#mainNav{padding-top:0;padding-bottom:0;border-bottom:none;background-color:transparent;transition:background-color .3s ease-in-out}
  
- #mainNav .navbar-brand{padding:.5rem 0;color:rgba(255,255,255,.5)}
+ #mainNav .navbar-brand{font-size:90%; padding:.1rem 0;color:rgba(255,255,255,.5)}
  
- #mainNav .nav-link{transition:none;padding:2rem 1.5rem;color:rgba(255,255,255,.5)}
+#mainNav .navbar-text{text-decoration: none; transition:none;letter-spacing:.1rem;padding:1.5rem .5rem;color:rgba(255,255,255,.5);}
+
+#mainNav .navbar-text:hover{color:#0099cc}
+
+
  
- #mainNav .nav-link:hover{color:rgba(255,255,255,.75)}
+ #mainNav .nav-link{transition:none; letter-spacing:.1rem;padding:2rem 1.5rem;color:rgba(255,255,255,.5)}
+ 
+ #mainNav .nav-link:hover{color:#0099cc}
  
  #mainNav .nav-link:active{color:#fff}
  
@@ -33,35 +46,59 @@
  
  #mainNav.navbar-shrink .navbar-brand{color:#161616}
  
- #mainNav.navbar-shrink .nav-link{color:#161616;padding:1.5rem 1.5rem 1.25rem;border-bottom:.25rem solid transparent}
+  #mainNav.navbar-shrink .navbar-text {color:#161616;padding:1.5rem .5rem 1.25rem; border-bottom:.25rem solid transparent}
  
- #mainNav.navbar-shrink .nav-link:hover{color:#098A28}
+ #mainNav.navbar-shrink .nav-link{color:#161616;padding:3rem 1.5rem 1.25rem;border-bottom:.25rem solid transparent}
+ 
+ #mainNav.navbar-shrink .nav-link:hover{color:#0099cc}
  
  #mainNav.navbar-shrink .nav-link:active{color:#467370}
  
- #mainNav.navbar-shrink .nav-link.active{color:#098A28; outline:0;border-bottom:.25rem solid #098A28}}
+ #mainNav.navbar-shrink .nav-link.active{color:#0099cc; outline:0;border-bottom:.25rem solid #0099cc}}
+
  
+@media (max-width:450px) {
+#mainNav .navbar-text {
+  font-size: 0px !important;}
+  
+  #mainNav .navbar-icon {
+  font-size: 0px !important;}
+
+} 
+
 .masthead{
 	 position:relative;
 	 width:100%;
 	 height:auto;
 	 min-height:35rem;
 	 padding:15rem 0;
-	 background:linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(22,22,22,.7) 75%,#161616 100%),url(../img/bg-masthead.jpg);
+	 background:linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(22,22,22,.7) 75%,#161616 100%),url(../img/beach.jpg);
 	 background-position:center;
 	 background-repeat:no-repeat;
-	 background-attachment:scroll;
+	 background-attachment:fixed;
 	 background-size:cover}
 	 
 .masthead h1{
      font-family: 'Rakkas' ;
-	 font-size:2.5rem;
-	 line-height:2.5rem;
+	 font-size:3.5rem;
+	 line-height:3.5rem;
 	 letter-spacing:.8rem;
-	 background:-webkit-linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255, 0.1));
+	 background:-webkit-linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.2));
 	 -webkit-text-fill-color:transparent;
 	 -webkit-background-clip:text};
 } 
+
+  .masthead h2{
+	 padding-bottom:3rem;
+     font-family: 'Rakkas' ;
+	 font-size:1.5rem;
+	 letter-spacing:.5rem;
+	 background:-webkit-linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.4));
+	 -webkit-text-fill-color:transparent;
+	 -webkit-background-clip:text};
+	
+	  }
+ 
 
 .masthead h3{
   max-width: 20rem;
@@ -70,19 +107,40 @@
 	}
 	 
 @media (min-width:768px)
-  {.masthead h1{font-size:4rem;line-height:4rem}}
+  {.masthead h1{font-size:6.5rem;line-height:5rem}}
+  
+  .masthead h2{
+	 padding-bottom:3rem;
+     font-family: 'Rakkas' ;
+	 font-size:2.5rem;
+	 letter-spacing:.5rem;
+	 background:-webkit-linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.4));
+	 -webkit-text-fill-color:transparent;
+	 -webkit-background-clip:text};
+	
+	  }
+
   
 @media (min-width:992px){
  .masthead{
 	 height:100vh;
 	 padding:0}
+	 
  .masthead h1{
      font-size:6.5rem;
 	 line-height:6.5rem;
-	 letter-spacing:.8rem}
+	 letter-spacing:.8rem} 
+	 
+	 
 .masthead h2{
-     max-width:30rem;
-	 font-size:1.25rem}}
+ padding-bottom:3rem;
+     font-family: 'Rakkas' ;
+	font-size:3.5rem;
+	letter-spacing:.5rem;
+	background:-webkit-linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.4));
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text};
+	  }
 	 
 .btn{
      box-shadow:0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
@@ -91,77 +149,112 @@
 	 text-transform:uppercase;letter-spacing:.15rem;border:0}
 	 
 .btn-primary{
-    background-color:#098A28}
+    background-color:#0099cc}
 	
-.btn-primary:hover{background-color:#4f837f}
+.btn-primary:hover{background-color:#66cccc}
 
-.btn-primary:focus{background-color:#4f837f;color:#fff}
+.btn-primary:focus{background-color:#6699cc;color:#fff}
 
-.btn-primary:active{background-color:#467370!important}
+.btn-primary:active{background-color:#6699cc!important}
 
 .about-section{
-   padding-top:10rem;
-   background:linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%) ,url(../img/ipad.png);
+  padding-top:3rem;
+   background:linear-gradient(to bottom,#999999 0,rgba(255,255,255,.7) 75%,rgba(255,255,255,.5) 100%) ,url(../img/birds.jpg);
    background-position:center;
    background-repeat:no-repeat;
-   background-attachment:scroll;
+   background-attachment: scroll;
    background-size:cover}
    }
    
 .about-section p{margin-bottom:5rem}
 
-.projects-section{padding:10rem 0}
+.projects-section{background:linear-gradient(to bottom,rgba(0,153,204,.1)0,rgba(0,153,204,.3) 50%, #0099cc 100%);padding:3rem 0}
 
 .projects-section .featured-text{padding:2rem}
 
 @media (min-width:992px){
 
-  .projects-section .featured-text{padding:0 0 0 2rem;border-left:.5rem solid #098A28}}
+  .projects-section .featured-text{padding:0 0 0 2rem;border-left:.5rem solid #0099cc}}
   
-  .projects-section .project-text{padding:3rem;font-size:90%}
+  .projects-section .project-text{padding:2rem;font-size:80%}
   
 @media (min-width:992px){
-  .projects-section .project-text{padding:5rem}
+  .projects-section .project-text{padding:3rem}
   .projects-section .project-text hr{
-     border-color:#098A28;
+     border-color:#0099cc;
 	 border-width:.25rem;width:30%}}
 
-.portfolio-section{
-   padding-top:3rem;
-   background:linear-gradient(to bottom,#161616 0,rgba(22,22,22,.5),rgba(22,22,22,1) ) ,url(../img/ipad.png);
-   background-position:center;
-   background-repeat:no-repeat;
-   background-attachment:scroll;
-   background-size:cover}
+  .portfolio-section{
+     background:linear-gradient(to bottom,#ffffff 0,rgba(255,255,255,.6) 75%,rgba(255,255,255,.7) 100%), url("../img/bg-photos.jpg") center top no-repeat fixed;
+     padding-top:2rem;
+     padding-bottom:2rem;
+     background-size:cover;
    }
-
 
 .portfolio-section p{
-	margin-bottom:5rem
+	padding:1rem;
    }
 
-.team-section{
-   padding-top:3rem;
-   background:linear-gradient(to bottom,#161616 0,rgba(22,22,22,.8),rgba(22,22,22,.2) ) ,url(../img/ipad.png);
-   background-position:center;
-   background-repeat:no-repeat;
-   background-attachment:scroll;
-   background-size:cover}
-   }
+	
 
-.team-section .card{border:0;border-bottom:.25rem solid #098A28}
+/* Team Section
+--------------------------------*/
 
-.team-section .card h4{
-    letter-spacing:.15rem}
-	 
-.team-section .card hr{
-    border-color:#098A28;
-	border-width:.25rem;width:3rem}
+#testimonials {
+  	padding:2rem;
+}
+
+#testimonials .testimonial-item {
+  text-align: center;
+}
+
+#testimonials .testimonial-item .testimonial-img {
+  width: 120px;
+  border-radius: 50%;
+  border: 4px solid #000000;
+  margin: 0 auto;
+}
+
+#testimonials .testimonial-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111;
+}
+
+#testimonials .testimonial-item h4 {
+  font-size: 14px;
+  color: #999;
+  margin: 0 0 15px 0;
+}
+
+#testimonials .testimonial-item .quote-sign-left {
+  margin-top: -15px;
+  padding-right: 10px;
+  display: inline-block;
+  width: 37px;
+}
+
+#testimonials .testimonial-item .quote-sign-right {
+  margin-bottom: -15px;
+  padding-left: 10px;
+  display: inline-block;
+  max-width: 100%;
+  width: 37px;
+}
+
+#testimonials .testimonial-item p {
+  font-style: italic;
+  margin: 0 auto 15px auto;
+  padding-bottom:1.5rem;
+}
+
+
 	
 	 
 .signup-section{
-   padding:10rem 0;
-   background:linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(../img/bg-signup.jpg);
+   padding:5rem 0;
+   background:linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(../img/beachpalms.jpg);
    background-position:center;
    background-repeat:no-repeat;
    background-attachment:scroll;
@@ -172,19 +265,19 @@
 	 padding:1.25rem 2rem;
 	 height:auto;
 
-	 font-size:80%;
+	 font-size:100%;
 	 text-transform:uppercase;
 	 letter-spacing:.15rem;border:0}
 	 
 .contact-section{padding:5rem 0 0}
 
-.contact-section .card{border:0;border-bottom:.25rem solid #098A28}
+.contact-section .card{border:0;border-bottom:.25rem solid #0099cc}
 
 .contact-section .card h4{
     letter-spacing:.15rem}
 	 
 .contact-section .card hr{
-    border-color:#098A28;
+    border-color:#0099cc;
 	border-width:.25rem;width:3rem}
 	
 .contact-section .social{margin-top:5rem}
@@ -202,6 +295,14 @@
 
 .contact-section .social a:active{color:#fff}
 
+hr {
+    border-top: 2px double #0099cc;
+    color: #0099cc;
+    overflow: visible;
+    height: 7px;
+	width: 20%;	
+}
+
 #back2Top {
     width: 35px;
     line-height: 35px;
@@ -212,8 +313,8 @@
     position: fixed;
     bottom: 50px;
     right: 5px;
-    background-color: #999;
-    color: #000;
+    background-color:#0099cc;
+    color: #fff;
     text-align: center;
     font-size: 30px;
     text-decoration: none;
@@ -222,17 +323,17 @@
 	border-color:#000;
 }
 #back2Top:hover {
-    background-color: #CCC;
-    color: #098A28;
+    background-color: 66cccc;
+    color: #000;
 }
 
 
  body{letter-spacing:.0625em}
  
- a{color:#098A28}
+ a{color:#0099cc}
  a:focus,a:hover{text-decoration:none;color:#3c6360}
  
  .bg-black{background-color:#161616!important}
- .bg-primary{background-color:#098A28important}
- .text-primary{color:#098A28!important}
+ .bg-primary{background-color:#0099cc!important}
+ .text-primary{color:#0099cc!important}
    footer{padding:5rem 0}
