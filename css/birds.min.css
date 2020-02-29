@@ -26,7 +26,7 @@
  
  @media (min-width:992px)
  
- {#mainNav{padding-top:0;padding-bottom:0;border-bottom:none;background-color:transparent;transition:background-color .3s ease-in-out}
+ {#mainNav{padding-top:0;padding-bottom:0;border-bottom:none;background-color:transparent;transition:background-color .5s ease-in-out}
  
  #mainNav .navbar-brand{font-size:90%; padding:.1rem 0;color:rgba(255,255,255,.5)}
  
@@ -36,7 +36,7 @@
 
 
  
- #mainNav .nav-link{transition:none; letter-spacing:.1rem;padding:2rem 1.5rem;color:rgba(255,255,255,.5)}
+ #mainNav .nav-link{transition:none; letter-spacing:.1rem;padding:1.5rem 1.5rem;color:rgba(255,255,255,.5)}
  
  #mainNav .nav-link:hover{color:#0099cc}
  
@@ -46,9 +46,9 @@
  
  #mainNav.navbar-shrink .navbar-brand{color:#161616}
  
-  #mainNav.navbar-shrink .navbar-text {color:#161616;padding:1.5rem .5rem 1.25rem; border-bottom:.25rem solid transparent}
+  #mainNav.navbar-shrink .navbar-text {color:#161616;padding:1.5rem 0.25rem 1.25rem; border-bottom:.25rem solid transparent}
  
- #mainNav.navbar-shrink .nav-link{color:#161616;padding:3rem 1.5rem 1.25rem;border-bottom:.25rem solid transparent}
+ #mainNav.navbar-shrink .nav-link{color:#161616;padding:1.5rem 1.25rem 1.25rem; border-bottom:.25rem solid transparent}
  
  #mainNav.navbar-shrink .nav-link:hover{color:#0099cc}
  
@@ -322,6 +322,8 @@ hr {
 	border-radius: 20px;
 	border-width:: 2px;
 	border-color:#000;
+	opacity:0.8;
+	
 }
 #back2Top:hover {
     background-color: 66cccc;
