@@ -143,20 +143,21 @@
 	-webkit-background-clip:text};
 	  }
 	 
-.btn{
+.btn {
      box-shadow:0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
-	 padding:1.25rem 2rem;	
+	 padding:.6rem 1rem;	
 	 font-size:100%;
-	 text-transform:uppercase;letter-spacing:.15rem;border:0}
+	 letter-spacing:.15rem;
+	 border:2;
+	 color:#0099cc;
+	 border-color:#0099cc;
+	 } 
 	 
-.btn-primary{
-    background-color:#0099cc}
-	
-.btn-primary:hover{background-color:#66cccc}
+.btn:hover {
+  background: #0099cc;
+  color:#fff;
+}
 
-.btn-primary:focus{background-color:#6699cc;color:#fff}
-
-.btn-primary:active{background-color:#6699cc!important}
 
 .about-section{
   padding-top:3rem;
@@ -165,6 +166,10 @@
    background-repeat:no-repeat;
    background-attachment: scroll;
    background-size:cover}
+   }
+   
+   .about-section h2 {
+	 padding-top:1rem;  
    }
    
 .about-section p{margin-bottom:5rem}
@@ -203,10 +208,12 @@
 
 #testimonials {
   	padding-top:2rem;
+	
 }
 
 #testimonials .testimonial-item {
   text-align: center;
+  z-index:-1;
 }
 
 #testimonials .testimonial-item .testimonial-img {
@@ -281,6 +288,12 @@
     border-color:#0099cc;
 	border-width:.25rem;width:3rem}
 	
+	.contact-section .card .card-body {
+	letter-spacing:.15rem;	
+	padding-top: 0;	
+	padding-bottom: 3.5rem;
+	}  
+	
 .contact-section .social{margin-top:5rem}
 
 .contact-section .social a{
@@ -317,7 +330,7 @@ hr {
     background-color:#0099cc;
     color: #fff;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
 	border-radius: 20px;
 	border-width:: 2px;
@@ -334,7 +347,7 @@ hr {
  body{letter-spacing:.0625em}
  
  a{color:#0099cc}
- a:focus,a:hover{text-decoration:none;color:#3c6360}
+ a:focus,a:hover{text-decoration:none;color:#66cccc}
  
  .bg-black{background-color:#161616!important}
  .bg-primary{background-color:#0099cc!important}

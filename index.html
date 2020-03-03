@@ -18,7 +18,6 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Rakkas&display=swap" rel="stylesheet"> 
   
   <!-- Lightbox-->
@@ -26,6 +25,7 @@
 
   <!-- Custom styles -->
   <link href="css/birds.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
 
 </head>
 
@@ -66,43 +66,43 @@
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-         <h1 class="mx-auto my-0 text-uppercase">Bird World</h1>
-         <h2 class="mx-auto my-0" >Agência de Viagens</h2>
-	    <h3 class="text-white-50 mx-auto mt-2 mb-5">"Viajar: primeiro te deixa sem palavras, depois te transforma em um contador de histórias"</h3>
-         <a href="#about" class="btn btn-primary js-scroll-trigger">Saiba mais</a>
+         <h1 class="mx-auto my-0 text-uppercase  wow fadeIn" data-wow-delay="0.6s">Bird World</h1>
+         <h2 class="mx-auto my-0 wow fadeIn" data-wow-delay="0.6s">Agência de Viagens</h2>
+	     <h3 class="text-white-50 mx-auto mt-2 mb-5">"Viajar: primeiro te deixa sem palavras, depois te transforma em um contador de histórias"</h3>
+         <a href="#about" class="btn btn-outline-primary mx-auto js-scroll-trigger wow fadeInUp" data-wow-delay="0.6s">Saiba maisa</a>
 	  </div>
     </div>
   </header> 
 
   <!-- About Section -->
-  <section id="about" class="about-section text-center">
+  <section id="about" class="about-section">
     <div class="container">
-      <div class="row">
+      <div class="row wow">
         <div class="col-lg-8 mx-auto">
-          <h2 class="text mb-4">Quem Somos</h2>
+          <h2 class="text-center mb-4">Quem Somos</h2>
 		  <hr>
           <p class="text-50">Como resultado de um sonho, acalentado há muitos anos, surge a Bird World, como novo conceito de agência de viagens que vem proporcionar um atendimento diferenciado e personalizado. Mais do que conectar pessoas e lugares, nosso principal objetivo é criar possibilidades entre você e viagens perfeitas.</p>
         </div>
       </div>
 	  <div class="row">
-        <div class="col-lg-4 text-center">
-		  <span class="text-white fa-stack fa-2x">
+        <div class="col-lg-4 text-center wow fadeInUp">
+		  <span class="text-white fa-stack fa-3x">
                 <i class="fa fa-circle fa-stack-2x text-primary"></i>
                 <i class="fa fa-eye fa-stack-1x fa-inverse"></i>
           </span>
              <h3 class="text mb-4">Visão</h3>
                <p class="text-50">Oportunizar a vivência de novas experiências ao redor do mundo.</p>
         </div>
-		<div class="col-lg-4 text-center">
-		  <span class="text-white fa-stack fa-2x">
+		<div class="col-lg-4 text-center wow fadeInUp" data-wow-delay="0.1s">
+		  <span class="text-white fa-stack fa-3x">
                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
                  <i class="fa fa-bullseye fa-stack-1x fa-inverse"></i>
           </span>
              <h3 class="text mb-4">Missão</h3>
                <p class="text-50">Proporcionar oportunidades de conhecer diferentes locais, pessoas e costumes, encantando, surpreendendo e superando as expectativas dos nossos clientes, através da excelência no atendimento, na qualidade e no valor dos serviços prestados e no envolvimento na relação.</p>
         </div>
-		<div class="col-lg-4 text-center">
-		  <span class="text fa-stack fa-2x">
+		<div class="col-lg-4 text-center wow fadeInUp" data-wow-delay="0.2s">
+		  <span class="text fa-stack fa-3x">
                 <i class="fa fa-circle fa-stack-2x text-primary"></i>
                 <i class="fa fa-handshake-o fa-stack-1x fa-inverse"></i>
           </span>
@@ -173,7 +173,7 @@
     <section id="portfolio" class="portfolio-section text-center">
 	<div class="container">
       <header class="text-50">
-        <h2 class="text-center text-uppercase lined">Destinos</h2>
+        <h2 class="text-center lined">Destinos</h2>
 		<hr>       
         </header>
         <p class="text-center">Trabalho, lazer, férias, sonho de viagem - tu decides. A "Bird World" faz acontecer.</p>
@@ -195,10 +195,10 @@
     </section>
 
     <!-- Team Section -->
-    <section id="testimonials" class="section-bg wow fadeInUp">
+    <section id="testimonials" class="section-bg">
       <div class="container">
     
-          <div class="testimonial-item">
+          <div class="testimonial-item wow fadeInUp">
             <img src="img/mariane.jpg" class="testimonial-img" alt="">
             <h3>Mariane Krause</h3>
             <h4>Founder</h4>
@@ -209,7 +209,7 @@
             </p>
 		
           </div>
-		  </div>
+		 </div>
 
 
   <!-- Contact Section -->
@@ -218,7 +218,7 @@
       <div class="row">
         <div class="col-md-10 col-lg-8 mx-auto text-white  text-center">
 
-          <i class="fa fa-paper-plane fa-2x mb-2"></i>
+          <i class="fas fa-dove fa-2x mb-2 "></i>
           <h2 class="text mb-5">Contato</h2>
           <p class="text-white mb-5">Podemos ajudar? Deixe-nos uma mensagem e entraremos em contato.</p>
           <form name="sentMessage" id="contactForm" novalidate>
@@ -248,7 +248,7 @@
 							<div class="row">
 								<div class="col-lg-12 text-center">
 									<div id="success"></div>
-									<button type="submit" class="btn btn-primary mx-auto">Envie tua mensagem</</button>
+									<button type="submit" class="btn btn-outline-primary mx-auto">Envie tua mensagem</button>
 								</div>
 							</div>
 						</form>
@@ -264,19 +264,19 @@
 
       <div class="row">
 
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
+        <div class="col-md-4 mb-3 mb-md-0 wow fadeInUp">
+          <div class="card py-4 h-75">
+            <div class="card-body address text-center">
               <i class="fa fa-map fa-lg text-primary mb-2"></i>
               <h5 class="text-uppercase m-0">Endereço</h5>
               <hr class="my-4">
-              <div class="text-black-50"><p>Rua Sete de Setembro 503<p/><p>96810-186 Santa Cruz do Sul/RS</p><p>Brasil</p></div>
+              <div class="text-black-50"><li>Rua Sete de Setembro 503</li><li>96810-186 Santa Cruz do Sul/RS</li><li>Brasil</li></div>
             </div>
           </div>
         </div>
 
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
+        <div class="col-md-4 mb-3 mb-md-0 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="card py-4 h-75">
             <div class="card-body text-center">
               <i class="fa fa-envelope fa-lg text-primary mb-2"></i>
               <h5 class="text-uppercase m-0">Email</h5>
@@ -288,8 +288,8 @@
           </div>
         </div>
 
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
+        <div class="col-md-4 mb-3 mb-md-0 wow fadeInUp" data-wow-delay="0.2s">
+          <div class="card py-4 h-75">
             <div class="card-body text-center">
               <i class="fa fa-phone fa-lg text-primary mb-2"></i>
               <h5 class="text-uppercase m-0">Telefone</h5>
@@ -326,11 +326,13 @@
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
   <script src="vendor/lightbox2/js/lightbox.min.js"></script>
+  <script src="https://kit.fontawesome.com/c19ccbf01e.js" crossorigin="anonymous"></script>
 
   <!-- Custom scripts -->
   <script src="js/birds.min.js"></script>
   <script src="js/buttonup.js"></script>
-
+  <script src="js/wow.min.js"></script>
+  <script>new WOW().init();</script>
 </body>
 
 </html>
