@@ -29,7 +29,7 @@
   
   
   <script src="https://kit.fontawesome.com/c19ccbf01e.js" crossorigin="anonymous"></script>
-  
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   
 </head>
 
@@ -67,17 +67,18 @@
 
   <!-- Header -->
   
+  <section snake-parallax="hero">
     <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
          <h1 class="mx-auto my-0 text-uppercase  wow fadeIn" data-wow-delay="0.6s">Bird World</h1>
-         <h2 class="mx-auto my-0 wow fadeIn" data-wow-delay="0.6s">Agência de Viagens</h2>
+         <h2 class="mx-auto my-0 wow fadeIn" data-wow-delay="0.6s">Agência de viagens</h2>
 	     <h3 class="text-white-50 mx-auto mt-2 mb-5">"Viajar: primeiro te deixa sem palavras, depois te transforma em um contador de histórias"</h3>
          <a href="#about" class="btn btn-outline-primary mx-auto js-scroll-trigger wow fadeInUp" data-wow-delay="0.6s">Saiba maisa</a>
 	  </div>
     </div>
    </header>
-
+ </section>
 
   <!-- About Section -->
   <section id="about" class="about-section wow fadeIn">
@@ -343,6 +344,14 @@
   <script src="js/wow.min.js"></script>
   
   <script>new WOW().init();</script>
+  
+  <script src="js/Snake.Parallax.js"></script>
+  
+  <script>
+  $(document, window).SnakeParallax({
+    backgroundImage:"url('img/beach.jpg')"
+  });
+</script>
  
 
 </body>

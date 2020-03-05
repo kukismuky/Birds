@@ -69,77 +69,61 @@
 .masthead{
 	 position:relative;
 	 width:100%;
-	 height:auto;
+	 height:100vh;
 	 min-height:35rem;
 	 padding:15rem 0;
-	 background:linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(22,22,22,.7) 75%,#161616 100%),url(../img/beach.jpg);
-	 background-position:center;
-	 background-repeat:no-repeat;
-	 background-attachment:scroll;
-	 background-size:cover
-	 }
+	 background:linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(22,22,22,.7) 75%,#161616 100%);
+}
 	 
 .masthead h1{
      font-family: 'Rakkas';
-	 font-size:3.5rem;
-	 line-height:3.5rem;
+	 font-size:3rem;
+	 line-height:3rem;
 	 letter-spacing:.8rem;
 	 background:-webkit-linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.2));
 	 -webkit-text-fill-color:transparent;
-     -webkit-background-clip:text};
+     -webkit-background-clip:text;
      } 
 
   .masthead h2{
 	 padding-bottom:3rem;
      font-family: 'Rakkas';
-	 font-size:1.5rem;
+	 font-size:1.75rem;
+	 line-height:1.75rem;
 	 letter-spacing:.5rem;
 	 background:-webkit-linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.4));
 	 -webkit-text-fill-color:transparent;
-     -webkit-background-clip:text};	
+  -webkit-background-clip:text;	
 	  }
  
 
 .masthead h3{
-  max-width: 20rem;
-  font-size: 1rem;
+
+  font-size: 1.25rem;
+  line-height:1.25rem;
   
 	}
 	 
-@media (min-width:768px)
-  {.masthead h1{font-size:6.5rem;line-height:5rem}}
-  
-  .masthead h2{
-	 padding-bottom:3rem;
-     font-family: 'Rakkas' ;
-	 font-size:2.5rem;
-	 letter-spacing:.5rem;
-	 background:-webkit-linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.4));
-	 -webkit-text-fill-color:transparent;
-	 -webkit-background-clip:text};
+@media (min-width:768px){
 	
-	  }
-
-  
+   .masthead h1{font-size:4rem;line-height:4rem; letter-spacing:.25rem}
+   .masthead h2{font-size:2.5rem;line-height:2.5rem;}
+	}
+ 
 @media (min-width:992px){
  .masthead{
 	 height:100vh;
 	 padding:0}
 	 
  .masthead h1{
-     font-size:6.5rem;
-	 line-height:6.5rem;
+     font-size:5.5rem;
+	 line-height:5.5rem;
 	 letter-spacing:.8rem} 
-	 
-	 
+	  
 .masthead h2{
- padding-bottom:3rem;
-     font-family: 'Rakkas' ;
 	font-size:3.5rem;
-	letter-spacing:.5rem;
-	background:-webkit-linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.4));
-	-webkit-text-fill-color:transparent;
-	-webkit-background-clip:text};
+	line-height:3.5rem;
+	letter-spacing:.5rem;}
 	  }
 	 
 .btn {
@@ -159,9 +143,10 @@
 
 .about-section{
   padding-top:3rem;
-   background:linear-gradient(to bottom,#999999 0,rgba(255,255,255,.7) 75%,rgba(255,255,255,.5) 100%) ,url(../img/birds.jpg) center top no-repeat fixed;
- 
-   position: relative;
+   background:linear-gradient(to bottom,#999999 0,rgba(255,255,255,.7) 75%,rgba(255,255,255,.5) 100%) ,url(../img/birds.jpg);
+   background-position:center;
+   background-repeat:no-repeat;
+   background-attachment: scroll;
    background-size:cover}
    }
    
