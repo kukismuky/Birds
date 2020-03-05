@@ -5,9 +5,9 @@
 */
 #mainNav {min-height:50px;background-color:#fff}
 
-#mainNav .navbar-toggler{font-size:90%;padding:.5rem; background-color:none; color:#0099cc;border:1px solid #0099cc; border-radius: 17px 0 17px 0}
+#mainNav .navbar-toggler{font-size:90%; text-align: center; padding:.55rem; background-color:none; color:#0099cc;border:1px solid #0099cc; border-radius: 17px 0 17px 17px }
 
-#mainNav .navbar-toggler:hover{background-color:#0099cc; color:#fff; border-radius: 0 17px 0 17px}
+#mainNav .navbar-toggler:hover{background-color:#0099cc; color:#fff; border-radius: 0 17px 17px 17px}
  
  #mainNav .navbar-toggler:focus{outline:0}
  
