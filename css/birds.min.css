@@ -323,9 +323,14 @@ hr {
 	border-radius: 20px;	
     border:1px solid #0099cc;
 	opacity:.7;
-	text-align: center;
-	
+	text-align: center;	
 }
+
+.modal .modal-content .bird2 {height: 60%;width: auto;}
+.modal .modal-content{padding-top:1rem;}
+.modal .modal-content .btn {padding-right:.5}
+.modal .modal-body {padding-top: 0rem;}
+
 #back2Top:hover {
      background-color: #0099cc;
     color: #fff;
