@@ -1,13 +1,13 @@
-/*!
- * Start Bootstrap - Grayscale v5.0.9 (https://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
-*/
+
 #mainNav {min-height:50px;background-color:#fff}
 
-#mainNav .navbar-toggler{font-size:90%; text-align: center; padding:.5rem; background-color:none; color:#0099cc;border:2px solid #0099cc; border-radius: 17px 0 17px 17px }
+#mainNav .navbar-toggler{padding:.6rem; background-color:none; color:#0099cc;border:none}
 
-#mainNav .navbar-toggler:hover{background-color:#0099cc; color:#fff; border-radius: 0 17px 17px 17px}
+#mainNav .navbar-toggler:hover{color:#66cccc}
+
+#mainNav .navbar-toggler>.closed {display:inline;}
+
+#mainNav .navbar-toggler.collapsed>.closed, .navbar-toggler:not(.collapsed)>.toggler {display:none;}
  
  #mainNav .navbar-toggler:focus{outline:0}
  
@@ -25,7 +25,7 @@
  
  #mainNav .navbar-nav .nav-item {padding-left: 1rem}
  
- .navbar{border-width:2px;border-style:solid;border-radius:30px 30px 60px 10px/10px 60px 30px 30px}
+
  
  
  @media (min-width:992px)
@@ -59,8 +59,7 @@
 @media (max-width:450px) 
 
  {#mainNav  .navbar-brand{font-size: 0px !important;}
-  
-  #mainNav  .navbar-icon {
+   #mainNav  .navbar-icon {
   font-size: 0px !important;}
 
 } 
@@ -131,7 +130,7 @@
 	letter-spacing:.5rem;}
 	  }
 	 
-.btn {
+.masthead .btn {
      box-shadow:0 .1875rem .1875rem 0 rgba(0,0,0,.2)!important;
 	 padding:.6rem 1rem;	
 	 font-size:100%;
@@ -140,7 +139,7 @@
 	 border-color:#0099cc;
 	 } 
 	 
-.btn:hover {
+.masthead .btn:hover {
   background: #0099cc;
   color:#fff;
 }
@@ -266,7 +265,8 @@
 .contact-section .card{border:0;border-bottom:.25rem solid #0099cc}
 
 .contact-section .card h4{
-    letter-spacing:.15rem}
+letter-spacing:.15rem;
+text-decoration:none;}
 	 
 .contact-section .card hr{
     border-color:#0099cc;
@@ -326,10 +326,13 @@ hr {
 	text-align: center;	
 }
 
-.modal .modal-content .bird2 {height: 60%;width: auto;}
-.modal .modal-content{padding-top:1rem;}
-.modal .modal-content .btn {padding-right:.5}
-.modal .modal-body {padding-top: 0rem;}
+.modal .modal-content .bird2 {height: 50%;width: auto;}
+.modal .modal-content{padding:.5rem;}
+.modal .modal-body {padding-top: 0;}
+.modal .btn {color:#0099cc;
+	 border-color:#0099cc;
+	 font-size:90%;
+	 padding;.1rem}
 
 #back2Top:hover {
      background-color: #0099cc;
