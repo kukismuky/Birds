@@ -282,7 +282,7 @@ text-decoration:none;}
 color: #161616 !important; text-decoration: none;
 }
 
-.contact-section .card .card-body a:active {outline: none; text-decoration:none; color:#66cccc}	
+.contact-section .card .card-body a:active { border:none; outline:none; text-decoration:none; color:#fff}	
 	
 
 .contact-section .card .card-body li {
