@@ -326,14 +326,6 @@ hr {
 	text-align: center;	
 }
 
-.modal .modal-content .bird2 {height: 50%;width: auto;}
-.modal .modal-content{padding:.5rem;}
-.modal .modal-body {padding-top: 0;}
-.modal .btn {color:#0099cc;
-	 border-color:#0099cc;
-	 font-size:90%;
-	 padding;.1rem}
-
 #back2Top:hover {
      background-color: #0099cc;
     color: #fff;
@@ -341,6 +333,11 @@ hr {
 	border:1px solid #fff;
 }
 
+.modal .modal-content .bird2 {height: 50%;width: auto;}
+.modal .modal-content{padding:.5rem;}
+.modal .modal-body {padding-top: 0;}
+.modal .btn {color:#0099cc; border-color:#0099cc;}
+.modal .btn:hover {background: #0099cc; color:#fff;}
 
  body{letter-spacing:.0625em}
  
