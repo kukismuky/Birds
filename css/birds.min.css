@@ -278,12 +278,9 @@ text-decoration:none;}
 	padding-bottom: 3.5rem;
 	} 
 	
-.contact-section .card .card-body a{
-text-decoration: none;
-}
-.contact-section .card .card-body a:focus { border:none; outline:none; text-decoration:none; color:#fff}	
+.contact-section .card .card-body a{color:inherit!important; text-decoration: none;}
+.contact-section .card .card-body a:focus {outline:none;}	
 	
-
 .contact-section .card .card-body li {
 	list-style-type: none;
 	letter-spacing: 0;
