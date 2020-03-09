@@ -355,13 +355,13 @@ hr {
 .box14 .icon li a{display:block;width:40px;height:40px;line-height:40px;border:1px solid #fff;border-radius:0 16px;font-size:14px;color:#fff;margin-right:5px;transition:all .4s ease 0s}
 .box14 .icon li a:hover{background:#0099cc;border-color:#fff}
 
-
-
 .modal .modal-content .bird2 {height: 50%;width: auto;}
 .modal .modal-content{padding:.5rem;}
 .modal .modal-body {padding-top: 0;}
 .modal .btn {color:#0099cc; border-color:#0099cc;}
 .modal .btn:hover {background: #0099cc; color:#fff;}
+
+.ghost {background-color:#000;visibility:hidden;display:none!important;position:absolute;left:-999999px;}
 
  body{letter-spacing:.0625em}
  
