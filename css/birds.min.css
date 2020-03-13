@@ -228,6 +228,9 @@
     background: #0099cc;
     color:#fff;
      }	 
+
+#mapid{height:250px;border-left:solid .75rem #fff;border-right:solid.75rem #fff;border-radius:10px}
+.contact-section .map{padding-top:0;padding-bottom: 2rem;}
 	 
 .contact-section{padding:5rem 0 0}
 
