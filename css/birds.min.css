@@ -59,7 +59,7 @@
    #mainNav  .navbar-icon {font-size: 0px !important;}
    } 
    
-#mainNav .tel{padding-left:0;padding-right:0} 
+#mainNav .tel{padding-left:0;padding-right:5px} 
    
 #mainNav .tel:focus {outline:none}
 
