@@ -11,7 +11,9 @@
  
  #mainNav .navbar-toggler:focus{outline:0}
  
- #mainNav .navbar-brand{font-size:95%; color:#0099cc; font-weight: 700; font-family:"Neucha";text-decoration:none}
+ #mainNav .navbar-brand{font-size:95%; color:#0099cc; font-weight: 700; font-family:"Neucha";}
+ 
+  #mainNav .navbar-brand a{text-decoration:none}
  
  #mainNav .navbar-brand .logo {height:40px; border-radius: 10px 0 10px 0}
  
