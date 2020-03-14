@@ -57,10 +57,10 @@
    #mainNav  .navbar-icon {font-size: 0px !important;}
    } 
    
- .tel a{padding-left:0;padding-right:0} 
+#mainNavnavbar.navbar .tel {padding-left:0;padding-right:0} 
    
-.tel a{text-decoration: none;}
-.tel a:focus {outline:none;} 
+#mainNav.navbar .tel{text-decoration: none;}
+#mainNav.navbar .tel:focus {outline:none;} 
   
  .popover {
 	letter-spacing:.1rem; 
