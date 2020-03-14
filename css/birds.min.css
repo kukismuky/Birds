@@ -57,8 +57,9 @@
    #mainNav  .navbar-icon {font-size: 0px !important;}
    } 
    
-#mainNavnavbar.navbar .tel {padding-left:0;padding-right:0} 
+#mainNavnavbar.navbar .tel{padding-left:0;padding-right:0;text-decoration: none} 
    
+#mainNavnavbar.navbar .tel:focus {outline:none}
 
  .popover {
 	letter-spacing:.1rem; 
@@ -68,9 +69,7 @@
 	box-shadow:0 6px 10px rgba(0, 0, 0, .6);
     -webkit-box-shadow:0 6px 10px rgba(0, 0, 0, .6); 
   }
-  .popover a{text-decoration: none}
-  .popover a:focus {outline:none}
-  
+
   .popover-title {
 	 border-bottom:none;
 	 background:#fff;
