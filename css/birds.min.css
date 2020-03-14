@@ -59,17 +59,18 @@
    
 #mainNavnavbar.navbar .tel {padding-left:0;padding-right:0} 
    
-#mainNav.navbar .tel{text-decoration: none;}
-#mainNav.navbar .tel:focus {outline:none;} 
-  
+
  .popover {
 	letter-spacing:.1rem; 
     border: 1px solid #000;
 	background:#fff;
 	border-radius:0 0 35px 0;
 	box-shadow:0 6px 10px rgba(0, 0, 0, .6);
-    -webkit-box-shadow:0 6px 10px rgba(0, 0, 0, .6);          
+    -webkit-box-shadow:0 6px 10px rgba(0, 0, 0, .6); 
+	text-decoration: none;}
   }
+  
+  .popover:focus {outline:none;}
   
   .popover-title {
 	 border-bottom:none;
