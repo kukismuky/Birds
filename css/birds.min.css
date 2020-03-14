@@ -57,9 +57,9 @@
    #mainNav  .navbar-icon {font-size: 0px !important;}
    } 
    
-#mainNavnavbar.tel{padding-left:0;padding-right:0;text-decoration: none} 
+#mainNav .tel{padding-left:0;padding-right:0;text-decoration: none} 
    
-#mainNavnavbar.tel:focus {outline:none}
+#mainNav .tel:focus {outline:none}
 
  .popover {
 	letter-spacing:.1rem; 
