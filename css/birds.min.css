@@ -56,6 +56,29 @@
    #mainNav  .navbar-brand{font-size: 0px !important;}
    #mainNav  .navbar-icon {font-size: 0px !important;}
    } 
+ .popover {
+	letter-spacing:.1rem; 
+    border: 1px solid #000;
+	background:#fff;
+	border-radius:15px 0 ;
+	box-shadow:0 6px 10px rgba(0, 0, 0, .6);
+    -webkit-box-shadow:0 6px 10px rgba(0, 0, 0, .6);          
+  }
+  
+  .popover-title {
+	 border-bottom:none;
+	 background:#fff;
+	 padding: 2px 6px 2px 4px;
+     color: #0099cc; 
+     font-size: 15px;
+     text-align:center;
+	 border-radius: 15px 0;
+  }
+
+  .popover-content {padding-bottom:5px;text-align:center;}
+  
+  .popover-content .btn {padding:1px;font-size:12px;color:#0099cc}
+  .popover-content .btn:hover {background: #0099cc;color:#fff;} 
 
 .head{
 	 position:relative;
