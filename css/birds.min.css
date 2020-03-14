@@ -56,11 +56,17 @@
    #mainNav  .navbar-brand{font-size: 0px !important;}
    #mainNav  .navbar-icon {font-size: 0px !important;}
    } 
+   
+ .tel a{padding-left:0;padding-right:0} 
+   
+.tel a{text-decoration: none;}
+.tel a:focus {outline:none;} 
+  
  .popover {
 	letter-spacing:.1rem; 
     border: 1px solid #000;
 	background:#fff;
-	border-radius:15px 0 ;
+	border-radius:0 0 35px 0;
 	box-shadow:0 6px 10px rgba(0, 0, 0, .6);
     -webkit-box-shadow:0 6px 10px rgba(0, 0, 0, .6);          
   }
@@ -71,13 +77,14 @@
 	 padding: 2px 6px 2px 4px;
      color: #0099cc; 
      font-size: 15px;
+	 font-weight: bold;
      text-align:center;
 	 border-radius: 15px 0;
   }
 
   .popover-content {padding-bottom:5px;text-align:center;}
   
-  .popover-content .btn {padding:1px;font-size:12px;color:#0099cc}
+  .popover-content .btn {padding:1px;font-size:12px;font-weight:bold;color:#0099cc}
   .popover-content .btn:hover {background: #0099cc;color:#fff;} 
 
 .head{
