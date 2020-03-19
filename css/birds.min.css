@@ -82,7 +82,7 @@
   }
 
   .popover-content {padding-bottom:5px;text-align:center;}  
-  .popover-content .btn {padding:1px;font-size:12px;font-weight:bold;color:#0099cc}
+  .popover-content .btn {padding:1px;font-size:12px;font-weight:bold;color:#0099cc;background:#cccccc}
   .popover-content .btn:hover {background: #0099cc;color:#fff;} 
 
 .head{
@@ -194,8 +194,7 @@
 	padding:1rem;
    }
 	
-/* Team Section
---------------------------------*/
+/* Team Section --*/
 
 .team-section{padding-top:2rem;}
 
