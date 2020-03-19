@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
@@ -8,13 +7,14 @@
 <meta name="author" content="">
 <title>Bird World</title>
 <link rel="icon" href="img/favicon.png" type="image/png">
-<link rel="apple-touch-icon" href="img/apple-touch-icon.png" type="image/png" size="57x57" >
+<link rel="apple-touch-icon" href="img/apple-touch-icon.svg" type="image/svg" size="57x57" >
 <link href="libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="css/birds.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Rakkas&display=swap" rel="stylesheet"> 
 <link rel="stylesheet" href="libs/lightbox2/css/lightbox.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 <link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/jquery.flipster.css">
 <link rel="canonical" href="http://birdworld.com.br/"/>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="js/Snake.Parallax.js"></script><script>$(document, window).SnakeParallax({backgroundImage:"url('img/beach.jpg')"});</script>  
@@ -110,7 +110,7 @@
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
         <div class="col-xl-8 col-lg-7">
           <div class="box14">
-               <img class="img-fluid" src="img/bg-midle.jpg" alt="Paris">
+               <img class="img-fluid" src="img/galerybg.jpg" alt="World map">
              <div class="box-content">
                  <h3 class="title">Bird World</h3>
                     <span class="post">galeria de fotos</span>
@@ -162,7 +162,33 @@
         </div>
       </div>
     </div>
-  </section>  
+  </section>
+  
+<section id="corp" class="corp-section light-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="section text-center">
+							<h4>Clientes corporativos</h4>
+							<p>Já para nossos clientes corporativos, nossa missão é entender suas necessidades de maneira adequada para que assim, possamos dar o retorno da melhor maneira possível, de uma forma ágil, transparente e na melhor equação de custo-benefício, além de nosso suporte antes, durante e depois da viagem.</p>							
+						</div>
+					</div>
+					<div class="col-md-6">
+					   <div class="flipster">
+		                  <ul>
+		  	                <li><img src="img/shanghai.jpg"></li>
+                            <li><img src="img/apartment.jpg"></li>
+							<li><img src="img/chinatown.jpg"></li>
+							<li><img src="img/plane.jpg"></li>
+							<li><img src="img/bus.jpg"></li>
+							<li><img src="img/meeting.jpg"></li>
+		                  </ul>
+		               </div>
+					</div>
+				</div>
+			</div>
+   </section>
+  
 <!-- Destinos Section-->
   <section id="destinos" class="destinos-section text-center">
 	<div class="container">
@@ -291,7 +317,11 @@
 <script src="js/birds.min.js"></script>
 <script src="js/buttonup.js"></script>
 <script src="js/wow.min.js"></script>
+<script src="js/jquery.flipster.js"></script>
 <script>new WOW().init();</script> 
-<script>$(document).ready(function(){$('#whsap').attr('title','Nos mande uma mensagem!');$('#whsap').attr('data-content','<a target="blank" href="https://api.whatsapp.com/send?phone=12623664441&text=Olá, gostaria de algumas informações!" type="button" class="btn btn-outline"><img src="img/whtapgrns.svg" height="20"></i>Enviar Mensagem</a>');$('#whsap').popover('hide');$('#whsap').popover('trigger','click');});</script><script>$(document).ready(function(){$('#whsap').attr('title','Nos mande uma mensagem!');$('#whsap').attr('data-content','<a target="blank" href="https://api.whatsapp.com/send?phone=12623664441&text=Olá, gostaria de algumas informações!" type="button" class="btn btn-outline"><img src="img/whatsapp.svg" height="20"></i>Enviar Mensagem</a>');$('#whsap').popover('hide');$('#whsap').popover('trigger','click');});</script>
+<script>
+$(document).ready(function(){$('#whsap').attr('title','Nos mande uma mensagem!');$('#whsap').attr('data-content','<a target="blank" href="https://api.whatsapp.com/send?phone=12623664441&text=Olá, gostaria de algumas informações!" type="button" class="btn btn-outline"><img src="img/whtapgrns.svg" height="20"></i>Enviar Mensagem</a>');$('#whsap').popover('hide');$('#whsap').popover('trigger','click');});</script><script>$(document).ready(function(){$('#whsap').attr('title','Nos mande uma mensagem!');$('#whsap').attr('data-content','<a target="blank" href="https://api.whatsapp.com/send?phone=12623664441&text=Olá, gostaria de algumas informações!" type="button" class="btn btn-outline"><img src="img/whatsapp.svg" height="20"></i>Enviar Mensagem</a>');$('#whsap').popover('hide');$('#whsap').popover('trigger','click');});
+$(function(){$(".flipster").flipster({style: 'carousel'});});
+</script>
 </body>
 </html>

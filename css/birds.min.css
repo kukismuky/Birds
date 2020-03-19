@@ -33,8 +33,6 @@
  
  #mainNav .navbar-brand{transition:none; letter-spacing:.12rem; padding:1rem 1rem;color:rgba(255,255,255,.5)}
 
- #mainNav .navbar-brand:hover{color:#0099cc}
-
  #mainNav .nav-link{transition:none; letter-spacing:.1rem;padding:1rem 1rem;color:rgba(255,255,255,.5)}
  
  #mainNav .nav-link:hover{color:#0099cc}
@@ -65,7 +63,7 @@
 
  .popover {
 	letter-spacing:.1rem; 
-    border: 1px solid #000;
+    border: none;
 	background:#fff;
 	border-radius:0 0 35px 0;
 	box-shadow:0 6px 10px rgba(0, 0, 0, .6);
@@ -83,8 +81,7 @@
 	 border-radius: 15px 0;
   }
 
-  .popover-content {padding-bottom:5px;text-align:center;}
-  
+  .popover-content {padding-bottom:5px;text-align:center;}  
   .popover-content .btn {padding:1px;font-size:12px;font-weight:bold;color:#0099cc}
   .popover-content .btn:hover {background: #0099cc;color:#fff;} 
 
@@ -178,7 +175,14 @@
  .projects-section .featured-text{padding:0 0 0 2rem; border-left:.5rem solid #0099cc}
  .projects-section .project-text{padding:2rem; font-size:90%}
   }
-  
+
+.corp-section{
+	padding-top:2rem;
+	padding-bottom:2rem;
+	background-size:cover;
+	background: url("../img/bgbb.jpg") center bottom no-repeat scroll;
+   }
+ 
 .destinos-section{
     background: url("../img/bg-photos.jpg") center top no-repeat scroll;
     padding-top:2rem;
@@ -190,7 +194,6 @@
 	padding:1rem;
    }
 	
-
 /* Team Section
 --------------------------------*/
 
