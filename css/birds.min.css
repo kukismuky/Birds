@@ -25,13 +25,15 @@
  
  #mainNav .navbar-nav .nav-item:focus{outline:0;background-color:transparent}
  
- #mainNav .navbar-nav .nav-item {padding-left: 1rem}
+ #mainNav .navbar-nav .nav-item {padding-left:2.75rem}
   
 @media (min-width:992px)
  
  {#mainNav{padding-top:0;padding-bottom:0;border-bottom:none;background-color:transparent;transition:background-color .4s ease-in-out}
  
  #mainNav .navbar-brand{transition:none; letter-spacing:.12rem; padding:1rem 1rem;color:rgba(255,255,255,.5)}
+ 
+ #mainNav .navbar-nav .nav-item {padding-left:1rem}
 
  #mainNav .nav-link{transition:none; letter-spacing:.1rem;padding:1rem 1rem;color:rgba(255,255,255,.5)}
  
@@ -64,10 +66,8 @@
  .popover {
 	letter-spacing:.1rem; 
     border: none;
-	background:#fff;
-	border-radius:0 0 35px 0;
-	box-shadow:0 6px 10px rgba(0, 0, 0, .6);
-    -webkit-box-shadow:0 6px 10px rgba(0, 0, 0, .6); 
+	background:none;
+
   }
 
   .popover-title {
@@ -78,11 +78,13 @@
      font-size: 15px;
 	 font-weight: bold;
      text-align:center;
-	 border-radius: 15px 0;
+	 border-radius:0 0 15px;
+	 box-shadow:0 6px 10px rgba(0, 0, 0, .6);
+    -webkit-box-shadow:0 6px 10px rgba(0, 0, 0, .6); 
   }
 
-  .popover-content {padding-bottom:5px;text-align:center;}  
-  .popover-content .btn {padding:1px;font-size:12px;font-weight:bold;color:#0099cc;background:#cccccc}
+  .popover-content {padding:3px;text-align:center;}  
+  .popover-content .btn {padding:1px;font-size:12px;font-weight:bold;color:#66cccc;background:none}
   .popover-content .btn:hover {background: #0099cc;color:#fff;} 
 
 .head{
